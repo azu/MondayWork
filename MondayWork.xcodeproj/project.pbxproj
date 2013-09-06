@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		089041454563405FAA7686D3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C09B1A6D20D45E79D071529 /* libPods.a */; };
+		17B5C2EAAD4B62C11570ABA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C6E0D6E3E7DABEE19E74 /* UIKit.framework */; };
+		17B5C31634B918ACE3BE4B9D /* ExampleScheduleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C26FE736FDE972DB58D4 /* ExampleScheduleDataSource.m */; };
+		17B5C50A8A2B913978D6ECB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5CC7D6AE75205025C1481 /* InfoPlist.strings */; };
+		17B5C54CF00F3B683AEA80C8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CEA02DAB9D5757F41FF9 /* SenTestingKit.framework */; };
+		17B5C5A451CC9AAB0BEB0491 /* WeekDayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CA0FCD5EAA100A3A71CC /* WeekDayUtil.m */; };
+		17B5C5C1B4051EF1573B518B /* ExampleScheduleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C26FE736FDE972DB58D4 /* ExampleScheduleDataSource.m */; };
+		17B5C5C4995DC496652A6337 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C1A31539A20D10923782 /* Default@2x.png */; };
+		17B5C621D3778E0B0F948211 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C027B54F88F0E147230B /* AppDelegate.m */; };
+		17B5C6B7CDCD57D83C78C77E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CA51D402B39652E17BCC /* Foundation.framework */; };
+		17B5C6E0FA5E03F0A9143D2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C6E0D6E3E7DABEE19E74 /* UIKit.framework */; };
+		17B5C74C18225B221B74798D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C92128BA616DC19FEF3B /* Default-568h@2x.png */; };
+		17B5C825FEC0706ACBF4D86F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C595E838C407F9D16409 /* MasterViewController.m */; };
+		17B5C8DA582E94DB8E4EFC68 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C819204C072E62A2047A /* InfoPlist.strings */; };
+		17B5C9AE6C044538761F84DB /* WeekDayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CA0FCD5EAA100A3A71CC /* WeekDayUtil.m */; };
+		17B5CA819A0400A2B418BBC1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C8ACE44DDCB31A8DDFAF /* MainStoryboard.storyboard */; };
+		17B5CBD00A4DAF0BF767795E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C28DA08BAE8D5ED5DB03 /* Default.png */; };
+		17B5CC424CE8C8B8FA0CED5C /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C2A839A3F52E372C6238 /* DetailViewController.m */; };
+		17B5CC749845F9AA5E1CEE3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C9AF2D403E8AB50EB0B6 /* main.m */; };
+		17B5CE89857846AA9C6BD296 /* LocalNotificationManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CF7E7C112E1F3397D2EA /* LocalNotificationManagerTest.m */; };
+		17B5CEBAEBA7F0F72A2433E6 /* LocalNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CA21E1CDF266C9E882F7 /* LocalNotificationManager.m */; };
+		17B5CECA87314067D331191D /* LocalNotificationManagerSpy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C128E94532961FB35FA3 /* LocalNotificationManagerSpy.m */; };
+		17B5CF178268FDB7126A0E2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CA51D402B39652E17BCC /* Foundation.framework */; };
+		17B5CF2855D45180DC7C25CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C9AE90ACB298B0593B36 /* CoreGraphics.framework */; };
+		17B5CF63D44CC57D77059FDF /* LocalNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CA21E1CDF266C9E882F7 /* LocalNotificationManager.m */; };
+		E7E3F810AC52486490ED146D /* libPods-MondayWorkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09068C35DE0242548D1B8BED /* libPods-MondayWorkTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5C50A8875269A724403FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5C60967A5F638948598DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5C1C2C1E2FB3C77028A63;
+			remoteInfo = MondayWork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09068C35DE0242548D1B8BED /* libPods-MondayWorkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MondayWorkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C01F74A16A378C6ADB27 /* WeekDayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekDayUtil.h; sourceTree = "<group>"; };
+		17B5C027B54F88F0E147230B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17B5C128E94532961FB35FA3 /* LocalNotificationManagerSpy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationManagerSpy.m; sourceTree = "<group>"; };
+		17B5C131E4C5EEA5AFD071D6 /* MondayWork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MondayWork-Prefix.pch"; sourceTree = "<group>"; };
+		17B5C1A31539A20D10923782 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		17B5C26FE736FDE972DB58D4 /* ExampleScheduleDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExampleScheduleDataSource.m; sourceTree = "<group>"; };
+		17B5C28DA08BAE8D5ED5DB03 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		17B5C2A839A3F52E372C6238 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		17B5C2E786690F27E94DAED1 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		17B5C46A56B473F32E156D89 /* ExampleScheduleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExampleScheduleDataSource.h; sourceTree = "<group>"; };
+		17B5C46DF12B4EE30A0489D6 /* MondayWork-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MondayWork-Info.plist"; sourceTree = "<group>"; };
+		17B5C595E838C407F9D16409 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		17B5C6E0D6E3E7DABEE19E74 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5C74794FEE439D8218C6B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		17B5C8528907A9E55CC49E4F /* MondayWorkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "MondayWorkTests-Info.plist"; sourceTree = "<group>"; };
+		17B5C8A22607A51CC4041294 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C92128BA616DC19FEF3B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		17B5C9AE90ACB298B0593B36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17B5C9AF2D403E8AB50EB0B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17B5CA0FCD5EAA100A3A71CC /* WeekDayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekDayUtil.m; sourceTree = "<group>"; };
+		17B5CA21E1CDF266C9E882F7 /* LocalNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationManager.m; sourceTree = "<group>"; };
+		17B5CA51D402B39652E17BCC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17B5CB19DC57CB549FFD0ED2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17B5CBC6CB7739CF4F3789C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5CCBE87E57F3AFDF94658 /* MondayWorkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MondayWorkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5CD22E822BFBECEDBB03A /* MondayWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MondayWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5CD4BDF0FA09763566B6C /* LocalNotificationManagerSpy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotificationManagerSpy.h; sourceTree = "<group>"; };
+		17B5CDB39A115AAC4398B60B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		17B5CE30E643963C292CCD28 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		17B5CE9447272E413D173BF7 /* LocalNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalNotificationManager.h; sourceTree = "<group>"; };
+		17B5CEA02DAB9D5757F41FF9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		17B5CF7E7C112E1F3397D2EA /* LocalNotificationManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalNotificationManagerTest.m; sourceTree = "<group>"; };
+		28E915FFC62149DD900739B1 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		530166F8DC424B34B76AD7D8 /* Pods-MondayWorkTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MondayWorkTests.xcconfig"; path = "Pods/Pods-MondayWorkTests.xcconfig"; sourceTree = SOURCE_ROOT; };
+		7C09B1A6D20D45E79D071529 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C532133710C491FADE0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C2EAAD4B62C11570ABA2 /* UIKit.framework in Frameworks */,
+				17B5C6B7CDCD57D83C78C77E /* Foundation.framework in Frameworks */,
+				17B5CF2855D45180DC7C25CE /* CoreGraphics.framework in Frameworks */,
+				089041454563405FAA7686D3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C725F674AA5EDBDEB550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C54CF00F3B683AEA80C8 /* SenTestingKit.framework in Frameworks */,
+				17B5C6E0FA5E03F0A9143D2E /* UIKit.framework in Frameworks */,
+				17B5CF178268FDB7126A0E2B /* Foundation.framework in Frameworks */,
+				E7E3F810AC52486490ED146D /* libPods-MondayWorkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C07FF1A151D1B6BDAE3C /* LocalNotificationManager */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CE9447272E413D173BF7 /* LocalNotificationManager.h */,
+				17B5CA21E1CDF266C9E882F7 /* LocalNotificationManager.m */,
+			);
+			path = LocalNotificationManager;
+			sourceTree = "<group>";
+		};
+		17B5C1E5154C6534A4DE3F2D /* ExampleScheduleDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C26FE736FDE972DB58D4 /* ExampleScheduleDataSource.m */,
+				17B5C46A56B473F32E156D89 /* ExampleScheduleDataSource.h */,
+			);
+			path = ExampleScheduleDataSource;
+			sourceTree = "<group>";
+		};
+		17B5C310CA92FD1D1F1E8FCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C6E0D6E3E7DABEE19E74 /* UIKit.framework */,
+				17B5CA51D402B39652E17BCC /* Foundation.framework */,
+				17B5C9AE90ACB298B0593B36 /* CoreGraphics.framework */,
+				17B5CEA02DAB9D5757F41FF9 /* SenTestingKit.framework */,
+				7C09B1A6D20D45E79D071529 /* libPods.a */,
+				09068C35DE0242548D1B8BED /* libPods-MondayWorkTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5C3B24D86B7DE00FE9D0F /* DateUtil */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CA0FCD5EAA100A3A71CC /* WeekDayUtil.m */,
+				17B5C01F74A16A378C6ADB27 /* WeekDayUtil.h */,
+			);
+			path = DateUtil;
+			sourceTree = "<group>";
+		};
+		17B5C6AD0D9FB5042379AC21 = {
+			isa = PBXGroup;
+			children = (
+				17B5CC46AD661E8E6B11BB37 /* Products */,
+				17B5C310CA92FD1D1F1E8FCE /* Frameworks */,
+				17B5C961E0D41F67E88402BF /* MondayWork */,
+				17B5CE5E1704B422E9BBB71A /* MondayWorkTests */,
+				28E915FFC62149DD900739B1 /* Pods.xcconfig */,
+				530166F8DC424B34B76AD7D8 /* Pods-MondayWorkTests.xcconfig */,
+				17B5CE30E643963C292CCD28 /* readme.md */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5C961E0D41F67E88402BF /* MondayWork */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CE35BAF313F130C05F05 /* Supporting Files */,
+				17B5CB19DC57CB549FFD0ED2 /* AppDelegate.h */,
+				17B5C027B54F88F0E147230B /* AppDelegate.m */,
+				17B5C8ACE44DDCB31A8DDFAF /* MainStoryboard.storyboard */,
+				17B5C2E786690F27E94DAED1 /* MasterViewController.h */,
+				17B5C595E838C407F9D16409 /* MasterViewController.m */,
+				17B5CDB39A115AAC4398B60B /* DetailViewController.h */,
+				17B5C2A839A3F52E372C6238 /* DetailViewController.m */,
+				17B5C07FF1A151D1B6BDAE3C /* LocalNotificationManager */,
+				17B5C1E5154C6534A4DE3F2D /* ExampleScheduleDataSource */,
+				17B5C3B24D86B7DE00FE9D0F /* DateUtil */,
+			);
+			path = MondayWork;
+			sourceTree = "<group>";
+		};
+		17B5CB5F8E0620017B0F9D8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C8528907A9E55CC49E4F /* MondayWorkTests-Info.plist */,
+				17B5CC7D6AE75205025C1481 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5CC46AD661E8E6B11BB37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CD22E822BFBECEDBB03A /* MondayWork.app */,
+				17B5CCBE87E57F3AFDF94658 /* MondayWorkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17B5CD6764E7A2A82D436574 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C128E94532961FB35FA3 /* LocalNotificationManagerSpy.m */,
+				17B5CD4BDF0FA09763566B6C /* LocalNotificationManagerSpy.h */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		17B5CE35BAF313F130C05F05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C46DF12B4EE30A0489D6 /* MondayWork-Info.plist */,
+				17B5C819204C072E62A2047A /* InfoPlist.strings */,
+				17B5C9AF2D403E8AB50EB0B6 /* main.m */,
+				17B5C131E4C5EEA5AFD071D6 /* MondayWork-Prefix.pch */,
+				17B5C28DA08BAE8D5ED5DB03 /* Default.png */,
+				17B5C1A31539A20D10923782 /* Default@2x.png */,
+				17B5C92128BA616DC19FEF3B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5CE5E1704B422E9BBB71A /* MondayWorkTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CB5F8E0620017B0F9D8E /* Supporting Files */,
+				17B5CD6764E7A2A82D436574 /* Mock */,
+				17B5CF7E7C112E1F3397D2EA /* LocalNotificationManagerTest.m */,
+			);
+			path = MondayWorkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5C1C2C1E2FB3C77028A63 /* MondayWork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C80034FD5789225D6187 /* Build configuration list for PBXNativeTarget "MondayWork" */;
+			buildPhases = (
+				20EEDD59143F480794BF0344 /* Check Pods Manifest.lock */,
+				17B5CAC23A27D440327E67AA /* Sources */,
+				17B5C532133710C491FADE0D /* Frameworks */,
+				17B5C65FB8535A738D7E6777 /* Resources */,
+				E7F672C3E40745AABB1A86A7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MondayWork;
+			productName = MondayWork;
+			productReference = 17B5CD22E822BFBECEDBB03A /* MondayWork.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17B5C96D871E25F77BE9FD16 /* MondayWorkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C0342D53835458678E5E /* Build configuration list for PBXNativeTarget "MondayWorkTests" */;
+			buildPhases = (
+				35F528AB34164F3781009419 /* Check Pods Manifest.lock */,
+				17B5C653E0C6B3DB13B61056 /* Sources */,
+				17B5C725F674AA5EDBDEB550 /* Frameworks */,
+				17B5C97D5261C61DB77ED12C /* Resources */,
+				17B5CFC00D34D2E769D5BC9B /* ShellScript */,
+				3BB1784B48E040E2A7BAA2B5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5C626EFAEE793CE34C3C5 /* PBXTargetDependency */,
+			);
+			name = MondayWorkTests;
+			productName = MondayWorkTests;
+			productReference = 17B5CCBE87E57F3AFDF94658 /* MondayWorkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5C60967A5F638948598DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 17B5C2ABF72A4C8E8F6E5041 /* Build configuration list for PBXProject "MondayWork" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5C6AD0D9FB5042379AC21;
+			productRefGroup = 17B5CC46AD661E8E6B11BB37 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+			);
+			projectRoot = "";
+			targets = (
+				17B5C1C2C1E2FB3C77028A63 /* MondayWork */,
+				17B5C96D871E25F77BE9FD16 /* MondayWorkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C65FB8535A738D7E6777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C8DA582E94DB8E4EFC68 /* InfoPlist.strings in Resources */,
+				17B5CBD00A4DAF0BF767795E /* Default.png in Resources */,
+				17B5C5C4995DC496652A6337 /* Default@2x.png in Resources */,
+				17B5C74C18225B221B74798D /* Default-568h@2x.png in Resources */,
+				17B5CA819A0400A2B418BBC1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C97D5261C61DB77ED12C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C50A8A2B913978D6ECB7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B5CFC00D34D2E769D5BC9B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		20EEDD59143F480794BF0344 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35F528AB34164F3781009419 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BB1784B48E040E2A7BAA2B5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-MondayWorkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7F672C3E40745AABB1A86A7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5C653E0C6B3DB13B61056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CF63D44CC57D77059FDF /* LocalNotificationManager.m in Sources */,
+				17B5CECA87314067D331191D /* LocalNotificationManagerSpy.m in Sources */,
+				17B5C5C1B4051EF1573B518B /* ExampleScheduleDataSource.m in Sources */,
+				17B5CE89857846AA9C6BD296 /* LocalNotificationManagerTest.m in Sources */,
+				17B5C5A451CC9AAB0BEB0491 /* WeekDayUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CAC23A27D440327E67AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CC749845F9AA5E1CEE3F /* main.m in Sources */,
+				17B5C621D3778E0B0F948211 /* AppDelegate.m in Sources */,
+				17B5C825FEC0706ACBF4D86F /* MasterViewController.m in Sources */,
+				17B5CC424CE8C8B8FA0CED5C /* DetailViewController.m in Sources */,
+				17B5CEBAEBA7F0F72A2433E6 /* LocalNotificationManager.m in Sources */,
+				17B5C31634B918ACE3BE4B9D /* ExampleScheduleDataSource.m in Sources */,
+				17B5C9AE6C044538761F84DB /* WeekDayUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5C626EFAEE793CE34C3C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5C1C2C1E2FB3C77028A63 /* MondayWork */;
+			targetProxy = 17B5C50A8875269A724403FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5C819204C072E62A2047A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C8A22607A51CC4041294 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C8ACE44DDCB31A8DDFAF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C74794FEE439D8218C6B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		17B5CC7D6AE75205025C1481 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5CBC6CB7739CF4F3789C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C18FE45372B07A0BC5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B5C49AA5B2DE2D7B31D2F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E915FFC62149DD900739B1 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MondayWork/MondayWork-Prefix.pch";
+				INFOPLIST_FILE = "MondayWork/MondayWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17B5CB24863E94B81E0A6924 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E915FFC62149DD900739B1 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MondayWork/MondayWork-Prefix.pch";
+				INFOPLIST_FILE = "MondayWork/MondayWork-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/** \"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17B5CB74464EB12507E21577 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530166F8DC424B34B76AD7D8 /* Pods-MondayWorkTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MondayWork.app/MondayWork";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MondayWork/MondayWork-Prefix.pch";
+				INFOPLIST_FILE = "MondayWorkTests/MondayWorkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		17B5CEA6F665ECF3701AB658 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530166F8DC424B34B76AD7D8 /* Pods-MondayWorkTests.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MondayWork.app/MondayWork";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MondayWork/MondayWork-Prefix.pch";
+				INFOPLIST_FILE = "MondayWorkTests/MondayWorkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		17B5CFB2F91F9022A1338B45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C0342D53835458678E5E /* Build configuration list for PBXNativeTarget "MondayWorkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5CB74464EB12507E21577 /* Release */,
+				17B5CEA6F665ECF3701AB658 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17B5C2ABF72A4C8E8F6E5041 /* Build configuration list for PBXProject "MondayWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C18FE45372B07A0BC5BB /* Release */,
+				17B5CFB2F91F9022A1338B45 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5C80034FD5789225D6187 /* Build configuration list for PBXNativeTarget "MondayWork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C49AA5B2DE2D7B31D2F7 /* Release */,
+				17B5CB24863E94B81E0A6924 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5C60967A5F638948598DC /* Project object */;
+}

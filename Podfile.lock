@@ -1,0 +1,13 @@
+PODS:
+  - NSDate-Escort (1.2.0)
+  - OCMock (2.2)
+
+DEPENDENCIES:
+  - NSDate-Escort
+  - OCMock
+
+SPEC CHECKSUMS:
+  NSDate-Escort: f940f313d71ac25a20c126170074b576df391340
+  OCMock: 5300ae6b75398fc3ae6cbf9102191333d35f6852
+
+COCOAPODS: 0.23.0
